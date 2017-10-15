@@ -1,0 +1,51 @@
+.Choices {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 0.5%;
+}
+.Choices:hover {
+  opacity:.5;
+}
+.CardSet {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+}
+.CardSetH {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+  display:none;
+}
+.CardSet:hover {
+  opacity:.5;
+}
+.Class {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+
+}
+.ClassH {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+  display:none;
+}
+.Class:hover {
+  opacity:.5;
+}
+.Rarity {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+}
+.RarityH {
+  background-color:grey;
+  width:20%;
+  margin:0.5% 0.5% 0.5% 7.5%;
+  display:none;
+}
+.Rarity:hover {
+  opacity:.5;
+}
