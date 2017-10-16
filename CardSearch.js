@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import TextInput from "./TextInput";
 
 class CardSearch extends Component {
   constructor() {
