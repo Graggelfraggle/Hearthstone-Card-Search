@@ -51,10 +51,6 @@ class CardSearch extends Component {
   }
 
   render() {
-    {
-      this.props.searchTerm;
-    }
-
     var set = [
       0,
       "Naxxramas",
@@ -96,18 +92,18 @@ class CardSearch extends Component {
         if (
           this.state.cards[i].playerClass === cardClass[this.props.cardClass]
         ) {
-          list.push(<div>{this.state.cards[i].name}</div>);
+          list.push(<div key={i}>{this.state.cards[i].name}</div>);
         }
       }
     } else if (this.props.cardRarity != 0) {
       for (var i = 0; i < number; i++) {
         if (this.state.cards[i].rarity === rarity[this.props.cardRarity]) {
-          list.push(<div>{this.state.cards[i].name}</div>);
+          list.push(<div key={i}>{this.state.cards[i].name}</div>);
         }
       }
     } else {
       for (var i = 0; i < number; i++) {
-        list.push(<div>{this.state.cards[i].name}</div>);
+        list.push(<div key={i}>{this.state.cards[i].name}</div>);
       }
     }
 
